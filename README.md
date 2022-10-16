@@ -11,7 +11,8 @@
 
 **NOTE**: ビルド時に `xcrun` を使用しているため、macOS以外では動作しません(たぶん)。
 
-### 1. dylibのビルド
+ライブラリのビルドのみ行うか、Xcodeプロジェクトとしてビルドするかを選択することができます。
+### 1. dylibのみビルド
 
 `create_library` ディレクトリに移動して `make` を実行すると、`build`ディレクトリ以下に
 
@@ -20,9 +21,10 @@
 
 が生成されます。
 
-### 2. Xcodeプロジェクト
+### 2. Xcodeプロジェクトからビルド
 
-under construction...
+`dylib_invoke` ディレクトリの `dylib_invoke.xcodeproj` を開き、ビルドします。
+Build Phase内でdylibのビルドが同時に行われるため、そのまま実行できます。
 
 ## License
 
