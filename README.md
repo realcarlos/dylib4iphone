@@ -1,4 +1,4 @@
-# dylib4mac
+# dylib4iphone
 
 [![Zenn:posted](https://img.shields.io/static/v1?label=Zenn&message=posted&color=3ea8ff&logo=zenn)](https://zenn.dev/enchan1207/articles/c5420777bb6e30)
 
